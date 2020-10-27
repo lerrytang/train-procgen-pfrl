@@ -1,0 +1,5 @@
+numpy
+gym
+procgen
+torch
+torchvision
