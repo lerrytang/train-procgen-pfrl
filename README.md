@@ -9,7 +9,7 @@ Their code is based on [baselines](https://github.com/openai/baselines) and
 Tensorflow 1.15 (as the time of writing).
 
 This repo is the PyTorch version of train-procgen that uses the
-[pfrl](https://github.com/pfnet/pfrl) library
+[pfrl](https://github.com/pfnet/pfrl) library from
 [Preferred Networks](https://preferred.jp/en/).
 We train and evaluate all the 16 tasks and have reproduced the results
 (we use all configurations under the easy level test protocol).
