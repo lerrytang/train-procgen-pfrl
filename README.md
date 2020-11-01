@@ -6,14 +6,14 @@ quickly a reinforcement learning agent learns generalizable skills.
 OpenAI provided [train-procgen](https://github.com/openai/train-procgen) as
 sample code to train agents in these environments.
 Their code is based on [baselines](https://github.com/openai/baselines) and
-Tensorflow 1.15 (as the time of writing).
+Tensorflow 1.15 (at the time of writing).
 
 This repo is the PyTorch version of train-procgen that uses the
 [pfrl](https://github.com/pfnet/pfrl) library from
 [Preferred Networks](https://preferred.jp/en/).
 We train and evaluate all the 16 tasks and have reproduced the results
 (we use all configurations under the easy level test protocol).
-On a single V100 GPU, it tasks about 3 hours to reproduce our results in one task.
+On a single V100 GPU, it takes about 3 hours to reproduce our results in one task.
 
 ![learning_curve](images/procgen_learning_curves.png)
 
